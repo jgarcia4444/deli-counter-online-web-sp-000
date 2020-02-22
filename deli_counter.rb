@@ -10,3 +10,8 @@ def line(line_arr)
     puts line_string
   end
 end
+
+def take_a_number(line_arr, customer_name)
+  line_arr << customer_name
+  puts ""
+end
