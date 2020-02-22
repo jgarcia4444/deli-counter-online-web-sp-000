@@ -20,4 +20,6 @@ def now_serving(line_arr)
   if line_arr.size > 0
     customer_name = line_arr.shift
     puts "Currently serving #{customer_name}."
+  else
+    puts "There is nobody waiting to be served!"
 end
