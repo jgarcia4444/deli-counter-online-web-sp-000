@@ -13,5 +13,5 @@ end
 
 def take_a_number(line_arr, customer_name)
   line_arr << customer_name
-  puts "Welcome, #{customer_name}. You are number #{line_arr.size + 1} in line."
+  puts "Welcome, #{customer_name}. You are number #{line_arr.size} in line."
 end
