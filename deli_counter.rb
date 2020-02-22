@@ -22,4 +22,5 @@ def now_serving(line_arr)
     puts "Currently serving #{customer_name}."
   else
     puts "There is nobody waiting to be served!"
+  end
 end
