@@ -15,3 +15,9 @@ def take_a_number(line_arr, customer_name)
   line_arr << customer_name
   puts "Welcome, #{customer_name}. You are number #{line_arr.size} in line."
 end
+
+def now_serving(line_arr)
+  if line_arr.size > 0
+    customer_name = line_arr.shift
+    
+end
